@@ -25,6 +25,7 @@
             </div>
             <div class="collapse navbar-collapse fix-top" id="blog-navbar-collapse">
                 <ul class="nav navbar-nav">
+                    <li><a class="menu-item" href="{{ route('post.index') }}">首页</a></li>
                     <li><a class="menu-item" href="{{ route('achieve') }}">归档</a></li>
                     @if(XblogConfig::getValue('github_username'))
                         <li><a class="menu-item" href="{{ route('projects') }}">项目</a></li>
@@ -85,8 +86,5 @@
                 </form>
             </div>
         </nav>
-    </div>
-    <div class="container-fluid">
-        <div class="description">{{ $description or 'Stay Hungry. Stay Foolish.' }}</div>
     </div>
 </header>

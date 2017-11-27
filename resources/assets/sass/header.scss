@@ -7,11 +7,12 @@
   color: #fff;
   margin-bottom: 20px;
   padding-top: 30px;
-  padding-bottom: 30px;
-
-  box-shadow: 1px 1px 1px $shadowColor;
-  -moz-box-shadow: 1px 1px 1px $shadowColor;
-  -webkit-box-shadow: 1px 1px 1px $shadowColor;
+  padding-bottom: 108px;
+  // background: url('http://ozynkcxdv.bkt.clouddn.com/banner.png') no-repeat;
+  background-color: #9caebf;
+  // box-shadow: 1px 1px 1px $shadowColor;
+  // -moz-box-shadow: 1px 1px 1px $shadowColor;
+  // -webkit-box-shadow: 1px 1px 1px $shadowColor;
 }
 
 .main-header h2 {
@@ -52,7 +53,7 @@ a:active, a:focus, a img {
 }
 
 .site-navbar form input[type="text"] {
-  border: 1px solid $colorPrimaryDark;
+  border: 1px solid #fff;
   color: white;
   background: transparent;
   vertical-align: middle;
@@ -82,10 +83,10 @@ a:active, a:focus, a img {
 .navbar-nav > li > a {
   margin: 8px 10px;
   padding: 5px 20px !important;
-  border: $colorPrimaryDark solid 1px !important;
-  border-radius: 50px;
-  background: $colorPrimaryDarkTransparent !important;
-  color: white;
+  //border: $colorPrimaryDark solid 1px !important;
+  //border-radius: 50px;
+  //background: $colorPrimaryDarkTransparent !important;
+  color: #fff;
   font-size: 1em;
   line-height: 1.1em;
   text-shadow: $shadowColor 1px 1px 2px;
@@ -95,8 +96,8 @@ a:active, a:focus, a img {
 
 .navbar-nav > li > a:hover {
   color: $colorAccent;
-  border: $colorAccent solid 1px !important;
-  background: $colorPrimaryDark;
+  //border: $colorAccent solid 1px !important;
+  //background: $colorPrimaryDark;
   @extend .transition;
 }
 
@@ -132,6 +133,6 @@ header .description {
 /*dropdown-menu*/
 
 .main-header .dropdown-menu > li > a:hover {
-  border-radius: 20px !important;
+  //border-radius: 20px !important;
   background-color: $colorPrimaryDark !important;
 }

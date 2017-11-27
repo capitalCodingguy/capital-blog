@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="theme-color" content="#52768e">
+    <meta name="theme-color" content="#9caebf">
     <title>@yield('title') Admin {{ $site_title or '' }}</title>
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     @if(isset($site_css) && $site_css)

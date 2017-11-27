@@ -8,7 +8,7 @@ $font-size-h5: 1.2em !default;
 $font-size-h6: 1em !default;
 
 
-$colorPrimary: #52768e;
+$colorPrimary: #9caebf;
 $colorPrimaryDark:  darken($colorPrimary,10%);
 $colorPrimaryDarkTransparent: rgba($colorPrimary, 0.25);
 $colorAccent: #FF6E40;
@@ -31,7 +31,7 @@ $metaColor: #959595;
 /* bootstrap*/
 $brand-primary: $colorPrimary;
 //$body-bg: #eee;
-$body-bg: #eee;
+$body-bg: #eff3f5;
 
 
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";

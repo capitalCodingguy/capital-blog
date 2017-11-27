@@ -9,7 +9,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{ route('admin.index') }}" class="navbar-brand">Admin</a>
             </div>
             <div class="collapse navbar-collapse" id="blog-navbar-collapse">
                 <ul class="nav navbar-nav">

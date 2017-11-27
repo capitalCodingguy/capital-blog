@@ -9,14 +9,14 @@
                     if ($user->profile_image)
                         $style = "background: url($user->profile_image) center center;";
                     else
-                        $style = "background-color: #607D8B;";
+                        $style = "background-color: #9caebf;";
                     ?>
                     <div class="widget-user-header" style="{{ $style }}">
                         <h3 class="widget-user-username">{{ $user->name }}</h3>
                         <h5 class="widget-user-desc">{{ $user->description or 'No description'}}</h5>
                     </div>
                     <div class="widget-user-image" id="upload-avatar">
-                        <img style="background-color: #607D8B" class="img-circle" src="{{ $user->avatar  }}" alt="User Avatar">
+                        <img style="background-color: #9caebf" class="img-circle" src="{{ $user->avatar  }}" alt="User Avatar">
                     </div>
                     <div class="widget-user-body mt-30">
                         @can('manager',$user)
