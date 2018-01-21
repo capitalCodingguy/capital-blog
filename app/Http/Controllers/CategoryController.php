@@ -35,7 +35,7 @@ class CategoryController extends Controller
     public function show($name)
     {
         $category = $this->categoryRepository->get($name);
-        $page_size = $page_size = get_config('page_size', 7);
+        $page_size = $page_size = get_config('page_size', 7); 
         $posts = $this->categoryRepository->pagedPostsByCategory($category, $page_size);
         return view('category.show', compact('posts', 'name'));
     }

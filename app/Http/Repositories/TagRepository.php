@@ -21,7 +21,7 @@ class TagRepository extends Repository
 
     public function model()
     {
-        return app(Tag::class);
+        return app(Tag::class); 
     }
 
     public function getAll()

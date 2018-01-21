@@ -35,7 +35,7 @@ Route::patch('/user/upload/info', ['uses' => 'UserController@update', 'as' => 'u
 
 // Post
 Route::get('/blog', ['uses' => 'PostController@index', 'as' => 'post.index']);
-Route::get('/blog/{slug}', ['uses' => 'PostController@show', 'as' => 'post.show']);
+Route::get('/blog/{slug}', ['uses' => 'PostController@show', 'as' => 'post.show']); 
 
 // Category
 Route::get('/category/{name}', ['uses' => 'CategoryController@show', 'as' => 'category.show']);

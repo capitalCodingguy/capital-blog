@@ -25,7 +25,7 @@ class TagController extends Controller
         return view('tag.index');
     }
 
-    public function show($name)
+    public function show($name) 
     {
         $tag = $this->tagRepository->get($name);
         $page_size = $page_size = get_config('page_size', 7);
